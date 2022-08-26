@@ -1,7 +1,7 @@
 import React from 'react'
 import { clients } from '../constants'
 import styles from '../constants/style'
-import { instagram } from '../assets'
+
 const Clients = () => {
   return (
     <section className={`${styles.flexCenter} my-4 `}>
