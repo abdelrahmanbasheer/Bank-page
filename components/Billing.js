@@ -1,11 +1,11 @@
 import React from 'react'
 import {apple, bill, google} from "../assets"
 import styles,{layout} from '../constants/style'
+import Image from 'next/image';
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={bill.src} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
-
+      <Image src={bill.src} alt="billing" width={"620px"} height={"574px"} className=" relative z-[5]"></Image>
     
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
